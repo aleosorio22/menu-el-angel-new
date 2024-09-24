@@ -1,0 +1,61 @@
+{
+    "desayunos": [
+      {
+        "categoria": "desayunos",
+        "nombre": "Huevos rancheros",
+        "descripcion": "Dos huevos estrellados acompañados con salsa roja de la casa, crema, queso, plátanos fritos y frijoles a tu elección, parados o volteados",
+        "precio": 29.00,
+        "imagen": "productos/desayunos/huevos-rancheros.jpg"
+      },
+      {
+        "categoria": "desayunos",
+        "nombre": "Huevos divorciados",
+        "descripcion": "Dos huevos estrellados acompañados con salsa verde y roja de la casa, queso, crema y frijoles a tu elección, volteados o parados",
+        "precio": 29.00,
+        "imagen": "productos/desayunos/huevos-divorciados.jpg"
+      },
+      {
+        "categoria": "desayunos",
+        "nombre": "Desayuno chapín",
+        "descripcion": "Huevos revueltos acompañados de longaniza, plátanos fritos, salsa roja de la casa, queso, crema y frijoles a tu elección",
+        "precio": 29.00,
+        "imagen": "productos/desayunos/chapin.jpg"
+      },
+      {
+        "categoria": "desayunos",
+        "nombre": "Huevos campestres",
+        "descripcion": "Huevos revueltos con tomate y cebolla, plátanos fritos, queso, crema y frijoles a tu elección",
+        "precio": 29.00,
+        "imagen": "productos/desayunos/campestre.jpg"
+      },
+      {
+        "categoria": "desayunos",
+        "nombre": "Croissant desayuno",
+        "descripcion": "Relleno con una torta de huevo, frijoles volteados, queso suizo y jamón de pavo, acompañado de hashbrown y salsa dulce",
+        "precio": 24.00,
+        "imagen": "productos/desayunos/croissant.jpg"
+      },
+      {
+        "categoria": "desayunos lights",
+        "nombre": "Omelette light",
+        "descripcion": "Torta de claras de huevo rellena de espinaca, champiñones, queso mozarella y acompañado de fruta de temporada y pan integral de la casa",
+        "precio": 36.00,
+        "imagen": "productos/des-lights/omelette-light.jpg"
+      },
+      {
+        "categoria": "desayunos dulces",
+        "nombre": "Tres leches hot cakes",
+        "descripcion": "Tres panqueques bañados en tres leches, crema batida y guindas",
+        "precio": 26.00,
+        "imagen": "productos/des-dulces/tres-leches-hc.jpg"
+      },
+      {
+        "categoria": "menu infantil",
+        "nombre": "Chapincito",
+        "descripcion": "Huevos revueltos, frijoles volteados, queso, crema y jugo de naranja pequeño",
+        "precio": 24.00,
+        "imagen": "productos/infantil/chapincito.jpg"
+      }
+    ]
+  }
+  

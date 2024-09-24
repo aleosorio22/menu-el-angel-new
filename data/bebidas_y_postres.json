@@ -1,0 +1,35 @@
+{
+    "bebidas": [
+      {
+        "categoria": "bebidas calientes",
+        "nombre": "Café Americano",
+        "descripcion": "Cafe negro con un exquisito aroma.",
+        "precio": 10.00,
+        "imagen": "americano.jpg"
+      },
+      {
+        "categoria": "bebidas frias",
+        "nombre": "Frapuchino",
+        "descripcion": "Chocolate o caramelo",
+        "precio": 17.00,
+        "imagen": ""
+      }
+    ],
+    "postres": [
+      {
+        "categoria": "postres",
+        "nombre": "3 leches pequeño",
+        "descripcion": "Pastel personal tres leches",
+        "precio": 8.00,
+        "imagen": "productos/postres/tres-leches-peq.jpg"
+      },
+      {
+        "categoria": "postres",
+        "nombre": "Cachito relleno",
+        "descripcion": "",
+        "precio": 6.00,
+        "imagen": "productos/postres/cachito.jpg"
+      }
+    ]
+  }
+  

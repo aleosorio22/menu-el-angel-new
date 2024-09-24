@@ -1,0 +1,82 @@
+{
+    "almuerzos": [
+      {
+        "categoria": "almuerzos",
+        "nombre": "Pechuga a la plancha",
+        "descripcion": "Acompañada de verduras salteadas, arroz, aguacate y chirmol. (Tortilla/Pan)",
+        "precio": 40.00,
+        "imagen": "productos/almuerzos/pechuga.jpg"
+      },
+      {
+        "categoria": "almuerzos",
+        "nombre": "Costilla a la barbacoa",
+        "descripcion": "Acomapañada de aguacate, papa azada, aderezo rosa y elotín. (Tortilla/Pan)",
+        "precio": 45,
+        "imagen": "productos/almuerzos/costilla-barbacoa.jpg"
+      },
+      {
+        "categoria": "almuerzos",
+        "nombre": "Churrasco 1/4 de libra",
+        "descripcion": "1/4 de libra de lomito de res, acomapañdo de elotín, cebollín, papa azada, aguacate, frijol y chirmol. (Tortilla/Pan)",
+        "precio": 50,
+        "imagen": "productos/almuerzos/churrasco-un-cuarto.jpg"
+      },
+      {
+        "categoria": "almuerzos",
+        "nombre": "Churrasco 1/2 de libra",
+        "descripcion": "1/2 de libra de lomito de res, acomapañdo de elotín, cebollín, papa azada, aguacate, frijol y chirmol. (Tortilla/Pan)",
+        "precio": 60,
+        "imagen": "productos/almuerzos/churrasco-media.jpg"
+      },
+      {
+        "categoria": "almuerzos",
+        "nombre": "Mojarra frita",
+        "descripcion": "Acompañado de ensalada verde y arroz. (Tortilla/Pan)",
+        "precio": 60,
+        "imagen": "productos/almuerzos/mojarra.jpg"
+      },
+      {
+        "categoria": "almuerzos",
+        "nombre": "Camarones al ajillo o a la plancha",
+        "descripcion": "Acomapañado de arroz y papas fritas. (Tortilla/Pan)",
+        "precio": 70,
+        "imagen": "productos/almuerzos/camarones.jpg"
+      },
+      {
+        "categoria": "almuerzos",
+        "nombre": "Ensalada de pollo",
+        "descripcion": "Lechuga romana, lechuga escarola, tomate cherry, cebolla, aguacate, crotones, aceite de oliva. (Aderezo a su elección)",
+        "precio": 45,
+        "imagen": "productos/almuerzos/ensalada.jpg"
+      },
+      {
+        "categoria": "almuerzos",
+        "nombre": "Ensalada de camarón",
+        "descripcion": "Lechuga romana, lechuga escarola, tomate cherry, cebolla, aguacate, crotones, aceite de oliva. (Aderezo a su elección)",
+        "precio": 50,
+        "imagen": "productos/almuerzos/ensalada.jpg"
+      },
+      {
+        "categoria": "almuerzos",
+        "nombre": "Ensalada de carne",
+        "descripcion": "Lechuga romana, lechuga escarola, tomate cherry, cebolla, aguacate, crotones, aceite de oliva. (Aderezo a su elección)",
+        "precio": 55,
+        "imagen": "productos/almuerzos/ensalada.jpg"
+      },
+      {
+        "categoria": "almuerzos",
+        "nombre": "Ensalada de dos carnes",
+        "descripcion": "Dos carnes a su elección (pollo, camarón o carne), lechuga romana, lechuga escarola, tomate cherry, cebolla, aguacate, crotones, aceite de oliva. (Aderezo a su elección)",
+        "precio": 70,
+        "imagen": "productos/almuerzos/ensalada.jpg"
+      },
+      {
+        "categoria": "almuerzos",
+        "nombre": "Ensalada de tres carnes",
+        "descripcion": "Pollo, camarón y carne, lechuga romana, lechuga escarola, tomate cherry, cebolla, aguacate, crotones, aceite de oliva. (Aderezo a su elección)",
+        "precio": 90,
+        "imagen": "productos/almuerzos/ensalada.jpg"
+      }
+    ]
+  }
+  

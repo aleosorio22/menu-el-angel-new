@@ -1,0 +1,40 @@
+{
+    "refacciones": [
+      {
+        "categoria": "pizzas personales",
+        "nombre": "Pizza de Peperoni",
+        "descripcion": "Con salsa roja",
+        "precio": 26.00,
+        "imagen": "americano.jpg"
+      },
+      {
+        "categoria": "pizzas personales",
+        "nombre": "Pizza de jamon",
+        "descripcion": "Con salsa roja",
+        "precio": 26.00,
+        "imagen": "americano.jpg"
+      },
+      {
+        "categoria": "pizzas personales",
+        "nombre": "Pizza de camarón",
+        "descripcion": "Con salsa blanca, cebolla y chile pimiento",
+        "precio": 33.00,
+        "imagen": "americano.jpg"
+      },
+      {
+        "categoria": "hamburguesas",
+        "nombre": "Combo 1 de hamburguesa",
+        "descripcion": "Hamburguesa de 1/4 de libra",
+        "precio": 39.00,
+        "imagen": "americano.jpg"
+      },
+      {
+        "categoria": "refacciones",
+        "nombre": "Tostada de salpicon",
+        "descripcion": "Con cebolla, perejil, salsa y queso",
+        "precio": 5.00,
+        "imagen": "tostadas.jpg"
+      }
+    ]
+  }
+  
