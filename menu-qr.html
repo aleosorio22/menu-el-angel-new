@@ -11,11 +11,22 @@
     <body>
         <header>
             <div class="header-content">
+                <a href="index.html" class="back-button" aria-label="Volver a la página de inicio">
+                    <i class="bi bi-arrow-left-circle-fill"></i>
+                </a>
                 <img src="img/white.logo-nobg.png" alt="Logo Café El Ángel" class="logo">
             </div>
         </header>
-        <nav id="menu-nav">
-            <!-- Las categorías del menú se generarán dinámicamente aquí -->
+        <nav id="menu-nav-container">
+            <div class="fade-left"></div>
+            <div id="menu-nav">
+                <!-- Las categorías del menú se generarán dinámicamente aquí -->
+            </div>
+            <div class="fade-right"></div>
+            <div class="scroll-indicator">
+                <span>Desliza</span>
+                <i class="bi bi-arrow-left-right"></i>
+            </div>
         </nav>
         <main>
             <section id="menu-items">

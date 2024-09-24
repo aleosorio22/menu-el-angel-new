@@ -144,6 +144,44 @@ function closeModal() {
     modal.style.display = 'none';
 }
 
+document.addEventListener('DOMContentLoaded', function() {
+    const menuNav = document.getElementById('menu-nav');
+    const scrollIndicator = document.querySelector('.scroll-indicator');
+    const fadeLeft = document.querySelector('.fade-left');
+    const fadeRight = document.querySelector('.fade-right');
+    let scrollIndicatorTimeout;
+
+    function updateScrollIndicators() {
+        const canScrollLeft = menuNav.scrollLeft > 0;
+        const canScrollRight = menuNav.scrollLeft < menuNav.scrollWidth - menuNav.clientWidth;
+
+        fadeLeft.style.opacity = canScrollLeft ? '1' : '0';
+        fadeRight.style.opacity = canScrollRight ? '1' : '0';
+
+        // Mostrar el indicador si hay contenido para desplazar
+        if (menuNav.scrollWidth > menuNav.clientWidth) {
+            scrollIndicator.style.opacity = '0.5';
+        } else {
+            scrollIndicator.style.opacity = '0';
+        }
+
+        // Configurar el temporizador para ocultar el indicador después de 3 segundos
+        clearTimeout(scrollIndicatorTimeout); // Limpiar cualquier temporizador anterior
+        scrollIndicatorTimeout = setTimeout(() => {
+            scrollIndicator.style.opacity = '0';
+        }, 4000);
+    }
+
+    // Llamar a updateScrollIndicators inmediatamente después de que se cargue la página
+    updateScrollIndicators();
+
+    // Volver a llamar a updateScrollIndicators después de un breve retraso
+    setTimeout(updateScrollIndicators, 100);
+
+    menuNav.addEventListener('scroll', updateScrollIndicators);
+    window.addEventListener('resize', updateScrollIndicators);
+});
+
 // Inicializar el menú
 document.addEventListener('DOMContentLoaded', () => {
     createCategoryButtons();
