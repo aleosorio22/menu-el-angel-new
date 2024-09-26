@@ -5,56 +5,56 @@
         "nombre": "Huevos rancheros",
         "descripcion": "Dos huevos estrellados acompañados con salsa roja de la casa, crema, queso, plátanos fritos y frijoles a tu elección, parados o volteados",
         "precio": 29.00,
-        "imagen": "productos/Desayunos/huevos-rancheros.jpg"
+        "imagen": "productos/desayunos/huevos-rancheros.jpg"
       },
       {
         "categoria": "Desayunos",
         "nombre": "Huevos divorciados",
         "descripcion": "Dos huevos estrellados acompañados con salsa verde y roja de la casa, queso, crema y frijoles a tu elección, volteados o parados",
         "precio": 29.00,
-        "imagen": "productos/Desayunos/huevos-divorciados.jpg"
+        "imagen": "productos/desayunos/huevos-divorciados.jpg"
       },
       {
         "categoria": "Desayunos",
         "nombre": "Desayuno chapín",
         "descripcion": "Huevos revueltos acompañados de longaniza, plátanos fritos, salsa roja de la casa, queso, crema y frijoles a tu elección",
         "precio": 29.00,
-        "imagen": "productos/Desayunos/chapin.jpg"
+        "imagen": "productos/desayunos/chapin.jpg"
       },
       {
         "categoria": "Desayunos",
         "nombre": "Huevos campestres",
         "descripcion": "Huevos revueltos con tomate y cebolla, plátanos fritos, queso, crema y frijoles a tu elección",
         "precio": 29.00,
-        "imagen": "productos/Desayunos/campestre.jpg"
+        "imagen": "productos/desayunos/campestre.jpg"
       },
       {
         "categoria": "Desayunos",
         "nombre": "Croissant desayuno",
         "descripcion": "Relleno con una torta de huevo, frijoles volteados, queso suizo y jamón de pavo, acompañado de hashbrown y salsa dulce",
         "precio": 24.00,
-        "imagen": "productos/Desayunos/croissant.jpg"
+        "imagen": "productos/desayunos/croissant.jpg"
       },
       {
         "categoria": "Desayunos",
         "nombre": "Torta mexicana",
         "descripcion": "Pan relleno con carne ahumada a tu elección, huevos revueltos, aguacate, aderezo chipotle, queso gratinado y hash brown",
         "precio": 26.00,
-        "imagen": "productos/Desayunos/torta-mex.jpg"
+        "imagen": "productos/desayunos/torta-mex.jpg"
       },
       {
         "categoria": "Desayunos",
         "nombre": "Quesadilla",
         "descripcion": "Torta de harina rellena de carne ahumada a tu elección, huevos revueltos, frijoles volteados, tres quesos, aguacate, cebolla y tomate, acompañado de hash brown o fruta",
         "precio": 29.00,
-        "imagen": "productos/Desayunos/quesadilla.jpg"
+        "imagen": "productos/desayunos/quesadilla.jpg"
       },
       {
         "categoria": "Desayunos",
         "nombre": "Montecristo",
         "descripcion": "Pan sándwich de la casa relleno de queso suizo, jamón de pavo, una torta de huevo acompañado de un hash brown y salsa dulce",
         "precio": 24.00,
-        "imagen": "productos/Desayunos/monte-cristo.jpg"
+        "imagen": "productos/desayunos/monte-cristo.jpg"
       },
       {
         "categoria": "Desayunos lights",
