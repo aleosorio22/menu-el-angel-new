@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Image gallery modal (if implemented)
-    const galleryImages = document.querySelectorAll('.bakery-gallery img');
+    const galleryImages = document.querySelectorAll('.bakery-gallery img, .pastry-gallery img');
     const modal = document.querySelector('.modal');
     const modalImg = document.querySelector('.modal-content');
     const closeModal = document.querySelector('.close');
@@ -90,4 +90,55 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }
+
+    // Carousel functionality
+    const carousel = document.querySelector('.carousel');
+    const carouselInner = carousel.querySelector('.carousel-inner');
+    const carouselItems = carousel.querySelectorAll('.carousel-item');
+    const prevButton = carousel.querySelector('.carousel-control-prev');
+    const nextButton = carousel.querySelector('.carousel-control-next');
+    const indicators = carousel.querySelector('.carousel-indicators');
+
+    let currentIndex = 0;
+
+    // Create indicators
+    carouselItems.forEach((_, index) => {
+        const indicator = document.createElement('div');
+        indicator.classList.add('carousel-indicator');
+        if (index === 0) indicator.classList.add('active');
+        indicator.addEventListener('click', () => goToSlide(index));
+        indicators.appendChild(indicator);
+    });
+
+    function updateCarousel() {
+        carouselInner.style.transform = `translateX(-${currentIndex * 100}%)`;
+        updateIndicators();
+    }
+
+    function updateIndicators() {
+        const activeIndicator = indicators.querySelector('.active');
+        if (activeIndicator) activeIndicator.classList.remove('active');
+        indicators.children[currentIndex].classList.add('active');
+    }
+
+    function goToSlide(index) {
+        currentIndex = index;
+        updateCarousel();
+    }
+
+    function nextSlide() {
+        currentIndex = (currentIndex + 1) % carouselItems.length;
+        updateCarousel();
+    }
+
+    function prevSlide() {
+        currentIndex = (currentIndex - 1 + carouselItems.length) % carouselItems.length;
+        updateCarousel();
+    }
+
+    nextButton.addEventListener('click', nextSlide);
+    prevButton.addEventListener('click', prevSlide);
+
+    // Auto-advance carousel
+    setInterval(nextSlide, 5000);
 });

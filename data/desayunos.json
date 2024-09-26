@@ -1,60 +1,193 @@
 {
-    "desayunos": [
+    "Desayunos": [
       {
-        "categoria": "desayunos",
+        "categoria": "Desayunos",
         "nombre": "Huevos rancheros",
         "descripcion": "Dos huevos estrellados acompañados con salsa roja de la casa, crema, queso, plátanos fritos y frijoles a tu elección, parados o volteados",
         "precio": 29.00,
-        "imagen": "productos/desayunos/huevos-rancheros.jpg"
+        "imagen": "productos/Desayunos/huevos-rancheros.jpg"
       },
       {
-        "categoria": "desayunos",
+        "categoria": "Desayunos",
         "nombre": "Huevos divorciados",
         "descripcion": "Dos huevos estrellados acompañados con salsa verde y roja de la casa, queso, crema y frijoles a tu elección, volteados o parados",
         "precio": 29.00,
-        "imagen": "productos/desayunos/huevos-divorciados.jpg"
+        "imagen": "productos/Desayunos/huevos-divorciados.jpg"
       },
       {
-        "categoria": "desayunos",
+        "categoria": "Desayunos",
         "nombre": "Desayuno chapín",
         "descripcion": "Huevos revueltos acompañados de longaniza, plátanos fritos, salsa roja de la casa, queso, crema y frijoles a tu elección",
         "precio": 29.00,
-        "imagen": "productos/desayunos/chapin.jpg"
+        "imagen": "productos/Desayunos/chapin.jpg"
       },
       {
-        "categoria": "desayunos",
+        "categoria": "Desayunos",
         "nombre": "Huevos campestres",
         "descripcion": "Huevos revueltos con tomate y cebolla, plátanos fritos, queso, crema y frijoles a tu elección",
         "precio": 29.00,
-        "imagen": "productos/desayunos/campestre.jpg"
+        "imagen": "productos/Desayunos/campestre.jpg"
       },
       {
-        "categoria": "desayunos",
+        "categoria": "Desayunos",
         "nombre": "Croissant desayuno",
         "descripcion": "Relleno con una torta de huevo, frijoles volteados, queso suizo y jamón de pavo, acompañado de hashbrown y salsa dulce",
         "precio": 24.00,
-        "imagen": "productos/desayunos/croissant.jpg"
+        "imagen": "productos/Desayunos/croissant.jpg"
       },
       {
-        "categoria": "desayunos lights",
+        "categoria": "Desayunos",
+        "nombre": "Torta mexicana",
+        "descripcion": "Pan relleno con carne ahumada a tu elección, huevos revueltos, aguacate, aderezo chipotle, queso gratinado y hash brown",
+        "precio": 26.00,
+        "imagen": "productos/Desayunos/torta-mex.jpg"
+      },
+      {
+        "categoria": "Desayunos",
+        "nombre": "Quesadilla",
+        "descripcion": "Torta de harina rellena de carne ahumada a tu elección, huevos revueltos, frijoles volteados, tres quesos, aguacate, cebolla y tomate, acompañado de hash brown o fruta",
+        "precio": 29.00,
+        "imagen": "productos/Desayunos/quesadilla.jpg"
+      },
+      {
+        "categoria": "Desayunos",
+        "nombre": "Montecristo",
+        "descripcion": "Pan sándwich de la casa relleno de queso suizo, jamón de pavo, una torta de huevo acompañado de un hash brown y salsa dulce",
+        "precio": 24.00,
+        "imagen": "productos/Desayunos/monte-cristo.jpg"
+      },
+      {
+        "categoria": "Desayunos lights",
         "nombre": "Omelette light",
         "descripcion": "Torta de claras de huevo rellena de espinaca, champiñones, queso mozarella y acompañado de fruta de temporada y pan integral de la casa",
         "precio": 36.00,
         "imagen": "productos/des-lights/omelette-light.jpg"
+      },     
+      {
+        "categoria": "Desayunos lights",
+        "nombre": "Huevos duros",
+        "descripcion": "Dos huevos duros, acompañados de salsa roja de la casa, plátanos cocidos y aguacate o fruta",
+        "precio": 32.00,
+        "imagen": "productos/des-lights/huevos-duros.jpg"
       },
       {
-        "categoria": "desayunos dulces",
+        "categoria": "Desayunos lights",
+        "nombre": "Crema de papaya",
+        "descripcion": "Plato de fruta de temporada, una deliciosa crema de papaya de la casa con frutos rojos y granola",
+        "precio": 34.00,
+        "imagen": "productos/des-lights/crema-papaya.jpg"
+      },
+      {
+        "categoria": "Desayunos lights",
+        "nombre": "Plato de frutas",
+        "descripcion": "Frutas de temporada con miel de maple o de abeja",
+        "precio": 24.00,
+        "imagen": "productos/des-lights/plato-frutas.jpg"
+      },
+      {
+        "categoria": "Desayunos lights",
+        "nombre": "Avena con leche",
+        "descripcion": "Deliciosa avena preparada con leche, pasas y canela",
+        "precio": 14.00,
+        "imagen": "productos/des-lights/avena.jpg"
+      },
+      {
+        "categoria": "Especialidades",
+        "nombre": "Desayuno americano",
+        "descripcion": "Tres panqueques, dos huevos revueltos, dos lascas de tocino y acompañado de hashbrown",
+        "precio": 32.00,
+        "imagen": "productos/especialidades/des-americano.jpg"
+      },
+      {
+        "categoria": "Especialidades",
+        "nombre": "Mexican style",
+        "descripcion": "Torta de huevo de tres quesos, pollo ahumado, con chile pimiento verde, acompañado de salsa verde de la casa, plátanos fritos, crema, aguacate y frijoles a tu elección",
+        "precio": 38.00,
+        "imagen": "productos/especialidades/mexican-style.jpg"
+      },
+      {
+        "categoria": "Especialidades",
+        "nombre": "Omelette americano",
+        "descripcion": "Torta de huevo rellena de tocino y tres quesos, acompañado con salsa roja de la casa, plátanos fritos, crema y frijoles a tu elección",
+        "precio": 34.00,
+        "imagen": "productos/especialidades/omelette-americano.jpg"
+      },
+      {
+        "categoria": "Especialidades",
+        "nombre": "Desayuno español",
+        "descripcion": "Dos huevos estrellados, acompañados de papa rosty, chorizo ahumado y frijoles a tu elección",
+        "precio": 34.00,
+        "imagen": "productos/especialidades/espaniol.jpg"
+      },
+      {
+        "categoria": "Especialidades",
+        "nombre": "Texas slow",
+        "descripcion": "Dos huevo revueltos, acompañado de carne mechada de cerdo en barbacoa, papa rosty, plátanos fritos y frijoles a tu elección",
+        "precio": 39.00,
+        "imagen": "productos/especialidades/texas.jpg"
+      },
+      {
+        "categoria": "Especialidades",
+        "nombre": "Desayuno mexicano",
+        "descripcion": "Dos huevos estrellados, sobre nachos de la casa bañados con salsa verde y salsa roja, com pollo ahumado, crema y tres quesos gratinados",
+        "precio": 37.00,
+        "imagen": "productos/especialidades/mexicano.jpg"
+      },
+      {
+        "categoria": "Especialidades",
+        "nombre": "Desayuno finquero",
+        "descripcion": "4 onzas de lomito de res en fajitas, salchicha de pavo, salteados en cebolla y chile pimiento rojo y verde, acompañado de dos huevos estrellados, queso, crema, salsa roja, plátanos fritos, pan o tortilla y frijoles volteados",
+        "precio": 44.00,
+        "imagen": "productos/especialidades/finquero.jpg"
+      },
+      {
+        "categoria": "Desayunos dulces",
         "nombre": "Tres leches hot cakes",
         "descripcion": "Tres panqueques bañados en tres leches, crema batida y guindas",
         "precio": 26.00,
         "imagen": "productos/des-dulces/tres-leches-hc.jpg"
       },
       {
-        "categoria": "menu infantil",
+        "categoria": "Desayunos dulces",
+        "nombre": "Nutella hot cakes",
+        "descripcion": "Tres panqueques con nutella, bañados con chocolate hershey´s, galleta oreo, fresas y crema batida",
+        "precio": 32.00,
+        "imagen": "productos/des-dulces/nutella-cakes.jpg"
+      },
+      {
+        "categoria": "Desayunos dulces",
+        "nombre": "Hot chesse cakes",
+        "descripcion": "Tres panqueques con queso crema, bañados en mermelada de fresa, crema batida, fresas y arándanos, acompañado de hash brown, miel de maple o de abeja",
+        "precio": 28.00,
+        "imagen": "productos/des-dulces/hot-chesse.jpg"
+      },
+      {
+        "categoria": "Desayunos dulces",
+        "nombre": "Waffles",
+        "descripcion": "Un delicioso Wafle con crema batida, acompañado de fresa o banano y miel a tu elección",
+        "precio": 28.00,
+        "imagen": "productos/des-dulces/waffles.jpg"
+      },
+      {
+        "categoria": "Menu infantil",
         "nombre": "Chapincito",
         "descripcion": "Huevos revueltos, frijoles volteados, queso, crema y jugo de naranja pequeño",
         "precio": 24.00,
         "imagen": "productos/infantil/chapincito.jpg"
+      },
+      {
+        "categoria": "Menu infantil",
+        "nombre": "Kid hot cakes",
+        "descripcion": "Dos panqueques acompañados de hash brown, miel de maple o de abeja, porción de fruta y jugo de naranja pequeño",
+        "precio": 26.00,
+        "imagen": "productos/infantil/kids-cakes.jpg"
+      },
+      {
+        "categoria": "Menu infantil",
+        "nombre": "Chicken nuggets",
+        "descripcion": "Tres nuggets de pollo, huevo revuelto, salsa dulce, porción de fruta y jugo de naranja pequeño",
+        "precio": 28.00,
+        "imagen": "productos/infantil/nuggets.jpg"
       }
     ]
   }

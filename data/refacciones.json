@@ -22,19 +22,132 @@
         "imagen": "americano.jpg"
       },
       {
-        "categoria": "hamburguesas",
+        "categoria": "Pizzas Personales",
+        "nombre": "Pizza del rancho",
+        "descripcion": "Pizza con carne asada, cebollines y salsa roja",
+        "precio": 29.00,
+        "imagen": "americano.jpg"
+      },
+      {
+        "categoria": "Pizzas Personales",
+        "nombre": "Pizza de pollo ",
+        "descripcion": "Pizza de pollo desmenuzado acompañado de loroco y salsa blanca",
+        "precio": 29.00,
+        "imagen": "americano.jpg"
+      },
+      {
+        "categoria": "Pizzas Personales",
+        "nombre": "Pizza hawaiana",
+        "descripcion": "Con salsa roja, jamón y piña",
+        "precio": 29.00,
+        "imagen": "americano.jpg"
+      },
+      {
+        "categoria": "Hamburguesas",
         "nombre": "Combo 1 de hamburguesa",
-        "descripcion": "Hamburguesa de 1/4 de libra",
+        "descripcion": "Hamburguesa de 1/4 de libra de carne, tomate, lechuga, queso y tocino, acompañada de papas y soda",
         "precio": 39.00,
         "imagen": "americano.jpg"
       },
       {
-        "categoria": "refacciones",
-        "nombre": "Tostada de salpicon",
-        "descripcion": "Con cebolla, perejil, salsa y queso",
+        "categoria": "Hamburguesas",
+        "nombre": "Combo 2 de hamburguesa",
+        "descripcion": "Hamburguesa de 1/2 libra de carne, tomate, lechuga, queso y tocino, acompañada de papas y soda",
+        "precio": 59.00,
+        "imagen": "americano.jpg"
+      },
+      {
+        "categoria": "Refacciones",
+        "nombre": "Papas fritas",
+        "descripcion": "Porción personal de papas fritas",
+        "precio": 12.00,
+        "imagen": "tostadas.jpg"
+      },
+      {
+        "categoria": "Refacciones",
+        "nombre": "Croissant",
+        "descripcion": "Croissant relleno de jamón y queso",
+        "precio": 9.00,
+        "imagen": "tostadas.jpg"
+      },
+      {
+        "categoria": "Refacciones",
+        "nombre": "Tostadas (Salpicón, Pollo o Aguacate)",
+        "descripcion": "Tostada de salpicón, pollo o aguacate con cebolla, perejil, salsa y queso",
+        "precio": 6.00,
+        "imagen": "tostadas.jpg"
+      },
+      {
+        "categoria": "Refacciones",
+        "nombre": "Tostadas (Salsa o Frijol)",
+        "descripcion": "Tostada de salsa o frijol con cebolla, perejil, salsa y queso",
         "precio": 5.00,
+        "imagen": "tostadas.jpg"
+      },
+      {
+        "categoria": "Refacciones",
+        "nombre": "Porción de nachos",
+        "descripcion": "Crujientes nachos (bañados) con queso chedar, acompañados con nuestra deliciosa salsa de la casa y guacamol",
+        "precio": 17.00,
+        "imagen": "tostadas.jpg"
+      },
+      {
+        "categoria": "Refacciones",
+        "nombre": "Nachos para compartir",
+        "descripcion": "Crujientes nachos bañados con queso mozzarella, acompañado de trocitos de pechuga de pollo a la parrilla, pico de gallo, guacamole y crema",
+        "precio": 39.00,
+        "imagen": "tostadas.jpg"
+      },
+      {
+        "categoria": "Alitas",
+        "nombre": "Porción de alitas en barbacoa o picantes",
+        "descripcion": "1/2 libra de alitas acompañadas de pan con ajo o mantequilla, palitos de zanahoria, apio y aderezo ranch",
+        "precio": 39.00,
+        "imagen": "productos/refacciones/por-alitas.jpg"
+      },
+      {
+        "categoria": "Alitas",
+        "nombre": "Combo de alitas en barbacoa o picantes",
+        "descripcion": "Libra y media de alitas acompañadas de pan con ajo o mantequilla, palitos de zanahoria, apio, aderezo ranch y 2 sodas",
+        "precio": 65.00,
+        "imagen": "productos/refacciones/combo-alitas.jpg"
+      },
+      {
+        "categoria": "Baguette",
+        "nombre": "Baguette de jamón de pavo",
+        "descripcion": "Relleno de queso suizo, lechuga, tomate, jamón de pavo y aderezo a su elección",
+        "precio": 16.00,
+        "imagen": "productos/refacciones/bag-jamon.jpg"
+      },
+      {
+        "categoria": "Baguette",
+        "nombre": "Baguette de brisket",
+        "descripcion": "Relleno de queso provolone, tomate, con tiras finas de carne de res, aguacate en tiras y aderezo a su elección",
+        "precio": 19.00,
+        "imagen": "tostadas.jpg"
+      },
+      {
+        "categoria": "Baguette",
+        "nombre": "Baguette de pierna",
+        "descripcion": "Relleno de queso provolone, tomate, pierna de cerdo desmenuzada con salsa barbacoa y aguacate",
+        "precio": 19.00,
+        "imagen": "tostadas.jpg"
+      },
+      {
+        "categoria": "Baguette",
+        "nombre": "Baguette de pollo",
+        "descripcion": "Relleno de queso suizo, lechuga, tomate, pechuga de pollo desmenuzada y aderezo a su elección",
+        "precio": 19.00,
+        "imagen": "tostadas.jpg"
+      },
+      {
+        "categoria": "Baguette",
+        "nombre": "Baguette de carne asada",
+        "descripcion": "Relleno de queso provolone, tomate, carne asada en trocitos, aguacate en tiras y aderezo a su elección",
+        "precio": 19.00,
         "imagen": "tostadas.jpg"
       }
     ]
   }
+  
   
