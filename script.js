@@ -53,6 +53,66 @@ document.addEventListener('DOMContentLoaded', function() {
         rootMargin: "0px"
     };
 
+     // Load content from JSON
+     fetch('data/index.json')
+        .then(response => response.json())
+        .then(data => {
+            loadCarouselContent('cakesContainer', data.pasteles, createCakeItem);
+            loadCarouselContent('bakeryContainer', data.panaderia, createBakeryItem);
+            loadCarouselContent('pastryContainer', data.reposteria, createPastryItem);
+        })
+        .catch(error => console.error('Error loading JSON:', error));
+
+    function loadCarouselContent(containerId, items, createItemFunc) {
+        const container = document.getElementById(containerId);
+        items.forEach((item, index) => {
+            const carouselItem = document.createElement('div');
+            carouselItem.className = `carousel-item${index === 0 ? ' active' : ''}`;
+            carouselItem.innerHTML = createItemFunc(item);
+            container.appendChild(carouselItem);
+        });
+    }
+
+    function createCakeItem(cake) {
+        return `
+            <div class="cake-item">
+                <img src="${cake.imagen}" alt="${cake.nombre}" class="d-block w-100">
+                <div class="cake-description">
+                    <h3>${cake.nombre}</h3>
+                    <p>${cake.descripcion}</p>
+                    <p>Sabores: ${cake.sabores}</p>
+                    <p>Porciones: ${cake.porciones}</p>
+                    <p>Precio: Q${cake.precio}</p>
+                </div>
+            </div>
+        `;
+    }
+
+    function createBakeryItem(bakeryItem) {
+        return `
+            <div class="bakery-item">
+                <img src="${bakeryItem.imagen}" alt="${bakeryItem.nombre}" class="d-block w-100">
+                <div class="bakery-description">
+                    <h3>${bakeryItem.nombre}</h3>
+                    <p>${bakeryItem.descripcion}</p>
+                </div>
+            </div>
+        `;
+    }
+
+    function createPastryItem(pastryItem) {
+        return `
+            <div class="pastry-item">
+                <img src="${pastryItem.imagen}" alt="${pastryItem.nombre}" class="d-block w-100">
+                <div class="pastry-description">
+                    <h3>${pastryItem.nombre}</h3>
+                    <p>${pastryItem.descripcion}</p>
+                    <p>Precio: Q${pastryItem.precio}</p>
+                </div>
+            </div>
+        `;
+    }
+
     const observer = new IntersectionObserver(function(entries, observer) {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -140,5 +200,5 @@ document.addEventListener('DOMContentLoaded', function() {
     prevButton.addEventListener('click', prevSlide);
 
     // Auto-advance carousel
-    setInterval(nextSlide, 5000);
+    setInterval(nextSlide, 10000);
 });

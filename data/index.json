@@ -1,0 +1,147 @@
+{
+    "pasteles": [
+        {
+            "nombre": "Pastele ambiente mini",
+            "descripcion": "Pastel ambiente redondo, tamaño pequeño, relleno de caramelo, crema pastelera o fresa. Diseño personalizable.",
+            "sabores": "Vainilla, Chocolate o Marmoleado",
+            "porciones": "8 a 10",
+            "precio": 60.00,
+            "imagen": "img/pasteles/pastel1.jpg"
+        },
+        {
+            "nombre": "Pastel ambiente normal",
+            "descripcion": "Pastel ambiente redondo, tamaño normal, relleno de caramelo, crema pastelera o fresa. Diseño personalizable.",
+            "sabores": "Vainilla, chocolate o marmoleado.",
+            "porciones": "10-18",
+            "precio": 100.00,
+            "imagen": "img/pasteles/pastel2.jpg"
+        },
+        {
+            "nombre": "Pastel ambiente mediano",
+            "descripcion": "Pastel ambiente redondo, tamaño mediano, relleno de caramelo, crema pastelera o fresa. Diseño personalizable.",
+            "sabores": "Vainilla, chocolate o marmoleado.",
+            "porciones": "18 a 25",
+            "precio": 150.00,
+            "imagen": "img/pasteles/pastel3.jpg"
+        },
+        {
+            "nombre": "Pastel ambiente grande",
+            "descripcion": "Pastel ambiente redondo, tamaño grande, relleno de caramelo, crema pastelera o fresa. Diseño personalizable.",
+            "sabores": "Vainilla, chocolate o marmoleado.",
+            "porciones": "30 a 40",
+            "precio": 175.00,
+            "imagen": "img/pasteles/pastel3.jpg"
+        },
+        {
+            "nombre": "Cuarto de plancha ambiente",
+            "descripcion": "Cuarto de plancha de pastel ambiente, relleno de caramelo, crema pastelera o fresa. Diseño personalizable.",
+            "sabores": "Vainilla, chocolate o marmoleado.",
+            "porciones": "20 a 30",
+            "precio": 100.00,
+            "imagen": "img/pasteles/pastel3.jpg"
+        },
+        {
+            "nombre": "Media plancha ambiente",
+            "descripcion": "Media plancha de pastel ambiente, relleno de caramelo, crema pastelera o fresa. Diseño personalizable.",
+            "sabores": "Vainilla, chocolate o marmoleado.",
+            "porciones": "40 a 50",
+            "precio": 175.00,
+            "imagen": "img/pasteles/pastel3.jpg"
+        },
+        {
+            "nombre": "Plancha completa ambiente",
+            "descripcion": "Plancha completa de pastel ambiente, relleno de caramelo, crema pastelera o fresa. Diseño personalizable.",
+            "sabores": "Vainilla, chocolate o marmoleado.",
+            "porciones": "90 a 100",
+            "precio": 350.00,
+            "imagen": "img/pasteles/pastel3.jpg"
+        },
+        {
+            "nombre": "Pastele semi humedo mini",
+            "descripcion": "Pastel semi humedo redondo, tamaño pequeño, relleno de caramelo, crema pastelera o fresa. Diseño personalizable.",
+            "sabores": "Vainilla, Chocolate o Marmoleado",
+            "porciones": "8 a 10",
+            "precio": 80.00,
+            "imagen": "img/pasteles/pastel1.jpg"
+        },
+        {
+            "nombre": "Pastel semi humedo normal",
+            "descripcion": "Pastel semi humedo redondo, tamaño normal, relleno de caramelo, crema pastelera o fresa. Diseño personalizable.",
+            "sabores": "Vainilla, chocolate o marmoleado.",
+            "porciones": "10-18",
+            "precio": 150.00,
+            "imagen": "img/pasteles/pastel2.jpg"
+        },
+        {
+            "nombre": "Pastel semi humedo mediano",
+            "descripcion": "Pastel semi humedo redondo, tamaño mediano, relleno de caramelo, crema pastelera o fresa. Diseño personalizable.",
+            "sabores": "Vainilla, chocolate o marmoleado.",
+            "porciones": "18 a 25",
+            "precio": 175.00,
+            "imagen": "img/pasteles/pastel3.jpg"
+        },
+        {
+            "nombre": "Pastel semi humedo grande",
+            "descripcion": "Pastel semi humedo redondo, tamaño grande, relleno de caramelo, crema pastelera o fresa. Diseño personalizable.",
+            "sabores": "Vainilla, chocolate o marmoleado.",
+            "porciones": "30 a 40",
+            "precio": 200.00,
+            "imagen": "img/pasteles/pastel3.jpg"
+        },
+        {
+            "nombre": "Cuarto de plancha semi humedo",
+            "descripcion": "Cuarto de plancha de pastel semi humedo, relleno de caramelo, crema pastelera o fresa. Diseño personalizable.",
+            "sabores": "Vainilla, chocolate o marmoleado.",
+            "porciones": "20 a 30",
+            "precio": 150.00,
+            "imagen": "img/pasteles/pastel3.jpg"
+        },
+        {
+            "nombre": "Media plancha semi humedo",
+            "descripcion": "Media plancha de pastel semi humedo, relleno de caramelo, crema pastelera o fresa. Diseño personalizable.",
+            "sabores": "Vainilla, chocolate o marmoleado.",
+            "porciones": "40 a 50",
+            "precio": 200.00,
+            "imagen": "img/pasteles/pastel3.jpg"
+        },
+        {
+            "nombre": "Plancha completa semi humedo",
+            "descripcion": "Plancha completa de pastel semi humedo, relleno de caramelo, crema pastelera o fresa. Diseño personalizable.",
+            "sabores": "Vainilla, chocolate o marmoleado.",
+            "porciones": "90 a 100",
+            "precio": 400.00,
+            "imagen": "img/pasteles/pastel3.jpg"
+        }
+    ],
+    "panaderia": [
+        {
+            "nombre": "Pan Artesanal",
+            "descripcion": "Nuestro pan artesanal se elabora con masa madre y fermenta lentamente para desarrollar sabores complejos.",
+            "imagen": "img/panaderia/pan-artesanal.jpg"
+        },
+        {
+            "nombre": "Variedad de Panes",
+            "descripcion": "Ofrecemos una amplia selección de panes, desde baguettes crujientes hasta panes integrales nutritivos.",
+            "imagen": "img/panaderia/variedad-panes.jpg"
+        },
+        {
+            "nombre": "Proceso de Horneado",
+            "descripcion": "Nuestros panaderos comienzan a trabajar en la madrugada para asegurar que tengas pan fresco cada mañana.",
+            "imagen": "img/panaderia/horneado.jpg"
+        }
+    ],
+    "reposteria": [
+        {
+            "nombre": "Mini cachitos",
+            "descripcion": "Mini cachitos rellenos de crema pastelera.",
+            "imagen": "img/reposteria/mini-cachitos.jpg",
+            "precio": 3.00
+        },
+        {
+            "nombre": "Mini donas",
+            "descripcion": "Mini donas, variedad de colores y decoración, perfectas para candy bar.",
+            "imagen": "img/reposteria/danish.jpg",
+            "precio": 3.00
+        }
+    ]
+}
