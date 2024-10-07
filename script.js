@@ -83,18 +83,13 @@ document.addEventListener('DOMContentLoaded', function() {
                     <p>Sabores: ${cake.sabores}</p>
                     <p>Porciones: ${cake.porciones}</p>
                     <p>Precio: Q${cake.precio}</p>
-                </div>
-            </div>
-        `;
-    }
-
-    function createBakeryItem(bakeryItem) {
-        return `
-            <div class="bakery-item">
-                <img src="${bakeryItem.imagen}" alt="${bakeryItem.nombre}" class="d-block w-100">
-                <div class="bakery-description">
-                    <h3>${bakeryItem.nombre}</h3>
-                    <p>${bakeryItem.descripcion}</p>
+                    <button type="button" class="btn btn-primary btn-reserve-cake" 
+                        data-nombre="${cake.nombre}" 
+                        data-sabores="${cake.sabores}" 
+                        data-porciones="${cake.porciones}" 
+                        data-precio="${cake.precio}">
+                        Ordenar
+                    </button>
                 </div>
             </div>
         `;
@@ -108,6 +103,21 @@ document.addEventListener('DOMContentLoaded', function() {
                     <h3>${pastryItem.nombre}</h3>
                     <p>${pastryItem.descripcion}</p>
                     <p>Precio: Q${pastryItem.precio}</p>
+                    <button type="button" class="btn btn-primary btn-reserve-pastry" data-nombre="${pastryItem.nombre}">
+                        Ordenar
+                    </button>
+                </div>
+            </div>
+        `;
+    }
+
+    function createBakeryItem(bakeryItem) {
+        return `
+            <div class="bakery-item">
+                <img src="${bakeryItem.imagen}" alt="${bakeryItem.nombre}" class="d-block w-100">
+                <div class="bakery-description">
+                    <h3>${bakeryItem.nombre}</h3>
+                    <p>${bakeryItem.descripcion}</p>
                 </div>
             </div>
         `;
