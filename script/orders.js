@@ -143,7 +143,7 @@ Estoy interesado(a) en pedir este pastel. ¿Podrían confirmarlo, por favor? �
             // Mostrar mensaje de confirmación con SweetAlert2
             Swal.fire({
                 icon: 'success',
-                title: '¡Reservación Lista para Enviar!',
+                title: 'Pedido Listo para Enviar!',
                 text: 'Presiona "Enviar" para confirmar tu pedido de pastel a través de WhatsApp.',
                 showCancelButton: true,
                 confirmButtonText: 'Enviar',

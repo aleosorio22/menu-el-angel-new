@@ -5,182 +5,182 @@
         "nombre": "Café Americano",
         "descripcion": "Cafe negro con un exquisito aroma.",
         "precio": 10.00,
-        "imagen": "americano.jpg"
+        "imagen": "productos/bebidas-calientes/americano.png"
     },
     {
         "categoria": "bebidas calientes",
         "nombre": "Café Con Leche",
         "descripcion": "Café con leche entera, descremada o deslactosada.",
         "precio": 12.00,
-        "imagen": "americano.jpg"
+        "imagen": "productos/no-image-product.png"
     },
     {
         "categoria": "bebidas calientes",
         "nombre": "Capuchino",
         "descripcion": "Delicioso cafe, con leche espumada.",
         "precio": 14.00,
-        "imagen": "americano.jpg"
+        "imagen": "productos/bebidas-calientes/capuchino-bg.png"
     },
     {
         "categoria": "bebidas calientes",
         "nombre": "Mocachino",
         "descripcion": "Cafe con leche espumada y chocolate.",
         "precio": 17.00,
-        "imagen": "americano.jpg"
+        "imagen": "productos/bebidas-calientes/mocachino.png"
     },
     {
         "categoria": "bebidas calientes",
         "nombre": "Latte",
         "descripcion": "Cafe con leche semiespumada",
         "precio": 14.00,
-        "imagen": "americano.jpg"
+        "imagen": "productos/no-image-product.png"
     },
     {
         "categoria": "bebidas calientes",
         "nombre": "Chocolate Caliente",
         "descripcion": "Chocolate con leche caliente",
         "precio": 16.00,
-        "imagen": "americano.jpg"
+        "imagen": "productos/no-image-product.png"
     },
     {
         "categoria": "bebidas calientes",
         "nombre": "Té de hierbas o frutal",
         "descripcion": "Variedad de té cómo frutos rojos, arándanos, etc.",
         "precio": 16.00,
-        "imagen": "americano.jpg"
+        "imagen": "productos/no-image-product.png"
     },
     {
         "categoria": "bebidas calientes",
         "nombre": "Té simple",
         "descripcion": "Té de manzanilla o té de limón",
         "precio": 14.00,
-        "imagen": "americano.jpg"
+        "imagen": "productos/no-image-product.png"
     },
     {
         "categoria": "bebidas calientes",
         "nombre": "Té Chai",
         "descripcion": "Original, manzana canela o vainilla",
         "precio": 18.00,
-        "imagen": "americano.jpg"
+        "imagen": "productos/no-image-product.png"
     },
     {
       "categoria": "bebidas frias",
       "nombre": "Frapuchino",
       "descripcion": "Chocolate o caramelo",
       "precio": 17.00,
-      "imagen": ""
+      "imagen": "productos/bebidas-frias/frape-chocolate.jpg"
     },
     {
       "categoria": "bebidas frias",
       "nombre": "Frapuchino moca",
       "descripcion": "",
       "precio": 18.00,
-      "imagen": ""
+      "imagen": "productos/bebidas-frias/frape-chocolate.jpg"
     },
     {
       "categoria": "bebidas frias",
       "nombre": "Frapuchai",
       "descripcion": "Original, vainilla o manzana canela",
       "precio": 18.00,
-      "imagen": ""
+      "imagen": "productos/no-image-product.png"
     },
     {
       "categoria": "bebidas frias",
       "nombre": "Malteada",
       "descripcion": "Chocolate o fresa",
       "precio": 17.00,
-      "imagen": ""
+      "imagen": "productos/bebidas-frias/malteada-fresa.jpg"
     },
     {
       "categoria": "bebidas frias",
       "nombre": "Refrescos naturales",
       "descripcion": "Papaya, melon, piña o sandía",
       "precio": 10.00,
-      "imagen": ""
+      "imagen": "productos/bebidas-frias/frescos-general.png"
     },
     {
       "categoria": "bebidas frias",
       "nombre": "Licuados",
       "descripcion": "Cereal, fresa o banano",
       "precio": 12.00,
-      "imagen": ""
+      "imagen": "productos/no-image-product.png"
     },
     {
       "categoria": "bebidas frias",
       "nombre": "Naranjada",
       "descripcion": "Simple o con soda",
       "precio": 17.00,
-      "imagen": ""
+      "imagen": "productos/bebidas-frias/naranjada.png"
     },
     {
       "categoria": "bebidas frias",
       "nombre": "Naranjada frozen",
       "descripcion": "Simple o con soda",
       "precio": 19.00,
-      "imagen": ""
+      "imagen": "productos/bebidas-frias/naranjada.png"
     },  
     {
       "categoria": "bebidas frias",
       "nombre": "Limonada",
       "descripcion": "Simple o con soda",
       "precio": 17.00,
-      "imagen": ""
+      "imagen": "productos/bebidas-frias/limonada.png"
     },
     {
       "categoria": "bebidas frias",
       "nombre": "Limonada frozen",
       "descripcion": "Simple o con soda",
       "precio": 19.00,
-      "imagen": ""
+      "imagen": "productos/bebidas-frias/limonada.png"
     },
     {
       "categoria": "bebidas frias",
       "nombre": "Rosa de jamaica",
       "descripcion": "Frozen",
       "precio": 18.00,
-      "imagen": ""
+      "imagen": "productos/bebidas-frias/jamaica.png"
     },
     {
       "categoria": "bebidas frias",
       "nombre": "Soda en lata",
       "descripcion": "",
       "precio": 6.00,
-      "imagen": ""
+      "imagen": "productos/no-image-product.png"
     },
     {
       "categoria": "bebidas frias",
       "nombre": "Jugo de naranja",
       "descripcion": "",
       "precio": 12.00,
-      "imagen": ""
+      "imagen": "productos/bebidas-frias/jugo-naranja.png"
     },
     {
       "categoria": "Batidos",
       "nombre": "Para cuerpo y mente",
       "descripcion": "Batido de jugo de naranja, zanahoria y piña",
       "precio": 21.00,
-      "imagen": ""
+      "imagen": "productos/bebidas-frias/batido-cuerpo.png"
     },
     {
       "categoria": "Batidos",
       "nombre": "Aguacate perfecto",
       "descripcion": "Batido de jugo de naranja, aguacate y espinaca",
       "precio": 23.00,
-      "imagen": ""
+      "imagen": "productos/bebidas-frias/batido-aguacate.png"
     },
     {
       "categoria": "Batidos",
       "nombre": "Sobredosis de energía",
       "descripcion": "Batido de jugo de naranja, jugo de limón, maracuya y manzana roja",
       "precio": 23.00,
-      "imagen": ""
+      "imagen": "productos/no-image-product.png"
     },
     {
       "categoria": "Batidos",
       "nombre": "Manzana verde",
       "descripcion": "Batido de jugo de naranja, piña, perejil, manzana verde y pepino  ",
       "precio": 21.00,
-      "imagen": ""
+      "imagen": "productos/bebidas-frias/batido-manzana-verde.png"
     }
     ],
     "postres": [
@@ -296,7 +296,7 @@
         "nombre": "Polvorosas",
         "descripcion": "Vainilla, café o limón",
         "precio": 1.00,
-        "imagen": ""
+        "imagen": "productos/postres/polvorosas.jpg"
       },
       {
         "categoria": "Postres",
@@ -311,6 +311,27 @@
         "descripcion": "",
         "precio": 8.00,
         "imagen": "productos/postres/sn-peq.jpg"
+      },
+      {
+        "categoria": "Postres",
+        "nombre": "Pastel media noche",
+        "descripcion": "",
+        "precio": 16.00,
+        "imagen": "productos/postres/media-noche.png"
+      },
+      {
+        "categoria": "Postres",
+        "nombre": "Canoa de banano",
+        "descripcion": "",
+        "precio": 12.00,
+        "imagen": "productos/postres/canoa-banano.png"
+      },
+      {
+        "categoria": "Postres",
+        "nombre": "Canoa de frutas",
+        "descripcion": "",
+        "precio": 12.00,
+        "imagen": "productos/postres/canoa-fruta.png"
       }
     ]
   }

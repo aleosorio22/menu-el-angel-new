@@ -109,7 +109,8 @@ function showCategory(menuData, category) {
         itemElement.classList.add('menu-item', 'fade-in');
         itemElement.innerHTML = `
             <div class="menu-item-image-container">
-                <img src="img/${item.imagen}" alt="${item.nombre}" class="menu-item-image">
+                <img src="img/${item.imagen}" alt="${item.nombre}" class="menu-item-image" 
+                onerror="this.src='../img/productos/no-image-product.png'; this.onerror=null;">
             </div>
             <div class="menu-item-info">
                 <h3 class="menu-item-name">${item.nombre}</h3>
