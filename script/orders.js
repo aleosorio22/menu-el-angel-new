@@ -83,7 +83,11 @@ Estoy interesado(a) en realizar esta reservación. ¿Podrían darle seguimiento 
             const message = `
 🍰 *Pedido de Mini Repostería* 🍰
 
-Estoy interesado(a) en solicitar mini repostería: *${nombre}*. ¿Podrían darle seguimiento a mi pedido, por favor? 😊
+Estoy interesado(a) en solicitar mini repostería: 
+
+*${nombre}*. 
+
+¿Podrían darle seguimiento a mi pedido, por favor? 😊
             `;
 
             // Convertir el mensaje a formato URI para WhatsApp
@@ -127,7 +131,7 @@ Estoy interesado(a) en solicitar mini repostería: *${nombre}*. ¿Podrían darle
 
             // Crear mensaje para pasteles con toda la información
             const message = `
-🍰 *Solicitud de Reservación de Pastel* 🍰
+🍰 *Solicitud de pedido de Pastel* 🍰
 
 👤 *Pastel Solicitado:* ${nombre}
 🎂 *Sabores Disponibles:* ${sabores}
