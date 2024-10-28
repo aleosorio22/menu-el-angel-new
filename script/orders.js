@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
 ⏰ *Hora de reservación:* ${time}
 👥 *Número de personas:* ${guests}
 
-Estoy interesado(a) en realizar esta reservación. ¿Podrían confirmarla, por favor? 😊
+Estoy interesado(a) en realizar esta reservación. ¿Podrían darle seguimiento a mi solicitud, por favor? 😊
             `;
 
             // Convertir el mensaje a formato URI para WhatsApp
@@ -49,7 +49,7 @@ Estoy interesado(a) en realizar esta reservación. ¿Podrían confirmarla, por f
             Swal.fire({
                 icon: 'success',
                 title: '¡Reservación Lista para Enviar!',
-                text: 'Presiona "Enviar" para confirmar tu reservación a través de WhatsApp.',
+                text: 'Presiona "Enviar" para confirmar su solicitud de reservación a través de WhatsApp. (Su reservación aún no está confirmada hasta recibir nuestro mensaje de confirmación)',
                 showCancelButton: true,
                 confirmButtonText: 'Enviar',
                 cancelButtonText: 'Cancelar',
@@ -65,7 +65,7 @@ Estoy interesado(a) en realizar esta reservación. ¿Podrían confirmarla, por f
                     Swal.fire({
                         icon: 'info',
                         title: '¡Gracias!',
-                        text: 'Te hemos redirigido a WhatsApp para que completes tu reservación.',
+                        text: 'Te hemos redirigido a WhatsApp para que completes tu solicitud de reservación.',
                         showConfirmButton: false,
                         timer: 3000
                     });
@@ -83,7 +83,7 @@ Estoy interesado(a) en realizar esta reservación. ¿Podrían confirmarla, por f
             const message = `
 🍰 *Pedido de Mini Repostería* 🍰
 
-Estoy interesado(a) en solicitar mini repostería: *${nombre}*. ¿Podrían confirmarlo, por favor? 😊
+Estoy interesado(a) en solicitar mini repostería: *${nombre}*. ¿Podrían darle seguimiento a mi pedido, por favor? 😊
             `;
 
             // Convertir el mensaje a formato URI para WhatsApp
@@ -93,7 +93,7 @@ Estoy interesado(a) en solicitar mini repostería: *${nombre}*. ¿Podrían confi
             Swal.fire({
                 icon: 'success',
                 title: '¡Pedido Listo para Enviar!',
-                text: 'Presiona "Enviar" para confirmar tu pedido de mini repostería a través de WhatsApp.',
+                text: 'Presiona "Enviar" para solicitar tu pedido de mini repostería a través de WhatsApp. (su pedido aún no está confirmado, por favor espere nuestro mensaje de confirmación).',
                 showCancelButton: true,
                 confirmButtonText: 'Enviar',
                 cancelButtonText: 'Cancelar',
@@ -108,7 +108,7 @@ Estoy interesado(a) en solicitar mini repostería: *${nombre}*. ¿Podrían confi
                     Swal.fire({
                         icon: 'info',
                         title: '¡Gracias!',
-                        text: 'Te hemos redirigido a WhatsApp para que completes tu pedido de mini repostería.',
+                        text: 'Te hemos redirigido a WhatsApp para que completes tu solicitud de pedido de mini repostería.',
                         showConfirmButton: false,
                         timer: 3000
                     });
@@ -134,7 +134,7 @@ Estoy interesado(a) en solicitar mini repostería: *${nombre}*. ¿Podrían confi
 🍴 *Porciones:* ${porciones}
 💰 *Precio:* Q${precio}
 
-Estoy interesado(a) en pedir este pastel. ¿Podrían confirmarlo, por favor? 😊
+Estoy interesado(a) en pedir este pastel. ¿Podrían darle seguimiento a mi pedido, por favor? 😊
             `;
 
             // Convertir el mensaje a formato URI para WhatsApp
@@ -144,7 +144,7 @@ Estoy interesado(a) en pedir este pastel. ¿Podrían confirmarlo, por favor? �
             Swal.fire({
                 icon: 'success',
                 title: 'Pedido Listo para Enviar!',
-                text: 'Presiona "Enviar" para confirmar tu pedido de pastel a través de WhatsApp.',
+                text: 'Presiona "Enviar" para confirmar tu solicitud de pedido de pastel a través de WhatsApp.',
                 showCancelButton: true,
                 confirmButtonText: 'Enviar',
                 cancelButtonText: 'Cancelar',
@@ -159,7 +159,7 @@ Estoy interesado(a) en pedir este pastel. ¿Podrían confirmarlo, por favor? �
                     Swal.fire({
                         icon: 'info',
                         title: '¡Gracias!',
-                        text: 'Te hemos redirigido a WhatsApp para que completes tu pedido de pastel.',
+                        text: 'Te hemos redirigido a WhatsApp para que completes tu solicitud de pedido de pastel.',
                         showConfirmButton: false,
                         timer: 3000
                     });

@@ -2,7 +2,7 @@
     "pasteles": [
         {
             "nombre": "Pastele ambiente mini",
-            "descripcion": "Pastel ambiente redondo, tamaño pequeño, relleno de caramelo, crema pastelera o fresa. Diseño personalizable.",
+            "descripcion": "Pastel ambiente redondo, tamaño mini, relleno de caramelo, crema pastelera o fresa. Diseño personalizable.",
             "sabores": "Vainilla, Chocolate o Marmoleado",
             "porciones": "8 a 10",
             "precio": 60.00,
@@ -38,7 +38,7 @@
             "sabores": "Vainilla, chocolate o marmoleado.",
             "porciones": "20 a 30",
             "precio": 100.00,
-            "imagen": "img/pasteles/pastel.jpg"
+            "imagen": "img/productos/no-image-product.png"
         },
         {
             "nombre": "Media plancha ambiente",
@@ -46,7 +46,7 @@
             "sabores": "Vainilla, chocolate o marmoleado.",
             "porciones": "40 a 50",
             "precio": 175.00,
-            "imagen": "img/pasteles/pastel.jpg"
+            "imagen": "img/productos/no-image-product.png"
         },
         {
             "nombre": "Plancha completa ambiente",
@@ -54,11 +54,11 @@
             "sabores": "Vainilla, chocolate o marmoleado.",
             "porciones": "90 a 100",
             "precio": 350.00,
-            "imagen": "img/pasteles/pastel.jpg"
+            "imagen": "img/productos/no-image-product.png"
         },
         {
             "nombre": "Pastele semi humedo mini",
-            "descripcion": "Pastel semi humedo redondo, tamaño pequeño, relleno de caramelo, crema pastelera o fresa. Diseño personalizable.",
+            "descripcion": "Pastel semi humedo redondo, tamaño mini, relleno de caramelo, crema pastelera o fresa. Diseño personalizable.",
             "sabores": "Vainilla, Chocolate o Marmoleado",
             "porciones": "8 a 10",
             "precio": 80.00,
@@ -94,7 +94,7 @@
             "sabores": "Vainilla, chocolate o marmoleado.",
             "porciones": "20 a 30",
             "precio": 150.00,
-            "imagen": "img/pasteles/pastel.jpg"
+            "imagen": "img/productos/no-image-product.png"
         },
         {
             "nombre": "Media plancha semi humedo",
@@ -102,7 +102,7 @@
             "sabores": "Vainilla, chocolate o marmoleado.",
             "porciones": "40 a 50",
             "precio": 200.00,
-            "imagen": "img/pasteles/pastel.jpg"
+            "imagen": "img/productos/no-image-product.png"
         },
         {
             "nombre": "Plancha completa semi humedo",
@@ -110,7 +110,7 @@
             "sabores": "Vainilla, chocolate o marmoleado.",
             "porciones": "90 a 100",
             "precio": 400.00,
-            "imagen": "img/pasteles/pastel.jpg"
+            "imagen": "img/productos/no-image-product.png"
         }
     ],
     "panaderia": [

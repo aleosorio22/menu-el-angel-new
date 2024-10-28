@@ -163,13 +163,19 @@ h2 {
     font-size: 2.5rem;
     text-align: center;
 }
+.about h3 {
+    text-align: center;
+    color: var(--clr-secondary);
+    margin-bottom: 1rem;
+}
 
 .about p {
+    text-align: center;
     font-size: 1.1rem;
     max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
+    margin: 0 auto 2rem auto;
 }
+
 
 .menu-card, .cake-item, .bakery-item, .pastry-item {
     background-color: #fff;
