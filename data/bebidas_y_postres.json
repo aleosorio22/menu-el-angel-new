@@ -153,34 +153,6 @@
       "descripcion": "",
       "precio": 12.00,
       "imagen": "productos/bebidas-frias/jugo-naranja.png"
-    },
-    {
-      "categoria": "Batidos",
-      "nombre": "Para cuerpo y mente",
-      "descripcion": "Batido de jugo de naranja, zanahoria y piña",
-      "precio": 21.00,
-      "imagen": "productos/bebidas-frias/batido-cuerpo.png"
-    },
-    {
-      "categoria": "Batidos",
-      "nombre": "Aguacate perfecto",
-      "descripcion": "Batido de jugo de naranja, aguacate y espinaca",
-      "precio": 23.00,
-      "imagen": "productos/bebidas-frias/batido-aguacate.png"
-    },
-    {
-      "categoria": "Batidos",
-      "nombre": "Sobredosis de energía",
-      "descripcion": "Batido de jugo de naranja, jugo de limón, maracuya y manzana roja",
-      "precio": 23.00,
-      "imagen": "productos/no-image-product.png"
-    },
-    {
-      "categoria": "Batidos",
-      "nombre": "Manzana verde",
-      "descripcion": "Batido de jugo de naranja, piña, perejil, manzana verde y pepino  ",
-      "precio": 21.00,
-      "imagen": "productos/bebidas-frias/batido-manzana-verde.png"
     }
     ],
     "postres": [

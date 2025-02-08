@@ -1,6 +1,7 @@
 // Función para obtener el menú automáticamente según la hora actual
 function getMenuBasedOnTime() {
     const currentHour = new Date().getHours();
+    currentMinute = new Date().getMinutes();
 
     console.log('Hora actual:', currentHour); 
 
