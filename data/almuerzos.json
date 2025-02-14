@@ -2,6 +2,20 @@
     "almuerzos": [
       {
         "categoria": "almuerzos",
+        "nombre": "Cordon Bleu",
+        "descripcion": "Filete de pollo enrollado de jamon y queso, verduras saltadas, puré de papa, salsa blanca (Tortilla/Pan)",
+        "precio": 65.00,
+        "imagen": "productos/almuerzos/cordon-bleu.png"
+      },
+      {
+        "categoria": "almuerzos",
+        "nombre": "Filet Mignon",
+        "descripcion": "Filete de carne enrollado de tocino, salsa morena en champiñones, puré de papa, verduras saltadas (Tortilla/Pan)",
+        "precio": 65.00,
+        "imagen": "productos/almuerzos/filet-mignon.png"
+      },
+      {
+        "categoria": "almuerzos",
         "nombre": "Pechuga a la plancha",
         "descripcion": "Acompañada de verduras salteadas, arroz, aguacate y chirmol. (Tortilla/Pan)",
         "precio": 40.00,
