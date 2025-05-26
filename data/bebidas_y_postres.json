@@ -4,105 +4,105 @@
         "categoria": "bebidas calientes",
         "nombre": "Café Americano",
         "descripcion": "Cafe negro con un exquisito aroma.",
-        "precio": 10.00,
+        "precio": 11.00,
         "imagen": "productos/bebidas-calientes/americano.png"
     },
     {
         "categoria": "bebidas calientes",
         "nombre": "Café Con Leche",
         "descripcion": "Café con leche entera, descremada o deslactosada.",
-        "precio": 12.00,
+        "precio": 14.00,
         "imagen": "productos/no-image-product.png"
     },
     {
         "categoria": "bebidas calientes",
         "nombre": "Capuchino",
         "descripcion": "Delicioso cafe, con leche espumada.",
-        "precio": 14.00,
+        "precio": 15.00,
         "imagen": "productos/bebidas-calientes/capuchino-bg.png"
     },
     {
         "categoria": "bebidas calientes",
         "nombre": "Mocachino",
         "descripcion": "Cafe con leche espumada y chocolate.",
-        "precio": 17.00,
+        "precio": 18.00,
         "imagen": "productos/bebidas-calientes/mocachino.png"
     },
     {
         "categoria": "bebidas calientes",
         "nombre": "Latte",
         "descripcion": "Cafe con leche semiespumada",
-        "precio": 14.00,
+        "precio": 16.00,
         "imagen": "productos/no-image-product.png"
     },
     {
         "categoria": "bebidas calientes",
         "nombre": "Chocolate Caliente",
         "descripcion": "Chocolate con leche caliente",
-        "precio": 16.00,
+        "precio": 17.00,
         "imagen": "productos/no-image-product.png"
     },
     {
         "categoria": "bebidas calientes",
         "nombre": "Té de hierbas o frutal",
         "descripcion": "Variedad de té cómo frutos rojos, arándanos, etc.",
-        "precio": 16.00,
+        "precio": 17.00,
         "imagen": "productos/no-image-product.png"
     },
     {
         "categoria": "bebidas calientes",
         "nombre": "Té simple",
         "descripcion": "Té de manzanilla o té de limón",
-        "precio": 14.00,
+        "precio": 15.00,
         "imagen": "productos/no-image-product.png"
     },
     {
         "categoria": "bebidas calientes",
         "nombre": "Té Chai",
         "descripcion": "Original, manzana canela o vainilla",
-        "precio": 18.00,
+        "precio": 19.00,
         "imagen": "productos/no-image-product.png"
     },
     {
       "categoria": "bebidas frias",
       "nombre": "Frapuchino",
       "descripcion": "Chocolate o caramelo",
-      "precio": 17.00,
+      "precio": 18.00,
       "imagen": "productos/bebidas-frias/frape-chocolate.jpg"
     },
     {
       "categoria": "bebidas frias",
       "nombre": "Frapuchino moca",
       "descripcion": "",
-      "precio": 18.00,
+      "precio": 19.00,
       "imagen": "productos/bebidas-frias/frape-chocolate.jpg"
     },
     {
       "categoria": "bebidas frias",
       "nombre": "Frapuchai",
       "descripcion": "Original, vainilla o manzana canela",
-      "precio": 18.00,
+      "precio": 19.00,
       "imagen": "productos/no-image-product.png"
     },
     {
       "categoria": "bebidas frias",
       "nombre": "Malteada",
       "descripcion": "Chocolate o fresa",
-      "precio": 17.00,
+      "precio": 18.00,
       "imagen": "productos/bebidas-frias/malteada-fresa.jpg"
     },
     {
       "categoria": "bebidas frias",
       "nombre": "Refrescos naturales",
       "descripcion": "Papaya, melon, piña o sandía",
-      "precio": 10.00,
+      "precio": 11.00,
       "imagen": "productos/bebidas-frias/frescos-general.png"
     },
     {
       "categoria": "bebidas frias",
       "nombre": "Licuados",
       "descripcion": "Cereal, fresa o banano",
-      "precio": 12.00,
+      "precio": 14.00,
       "imagen": "productos/no-image-product.png"
     },
     {
@@ -142,16 +142,30 @@
     },
     {
       "categoria": "bebidas frias",
-      "nombre": "Soda en lata",
+      "nombre": "Soda de sabores",
+      "descripcion": "Orange, Tiky, Lemon, Ginger Ale y Mineral",
+      "precio": 7.00,
+      "imagen": "productos/no-image-product.png"
+    },
+    {
+      "categoria": "bebidas frias",
+      "nombre": "Pepsi de vidrio",
       "descripcion": "",
-      "precio": 6.00,
+      "precio": 7.00,
+      "imagen": "productos/no-image-product.png"
+    },
+    {
+      "categoria": "bebidas frias",
+      "nombre": "Coca Colade vidrio",
+      "descripcion": "",
+      "precio": 8.00,
       "imagen": "productos/no-image-product.png"
     },
     {
       "categoria": "bebidas frias",
       "nombre": "Jugo de naranja",
       "descripcion": "",
-      "precio": 12.00,
+      "precio": 14.00,
       "imagen": "productos/bebidas-frias/jugo-naranja.png"
     }
     ],
@@ -161,7 +175,7 @@
         "id": 12,
         "nombre": "3 leches pequeño",
         "descripcion": "Pastel personal tres leches",
-        "precio": 8.00,
+        "precio": 9.00,
         "imagen": "productos/postres/tres-leches-peq.jpg"
       },
       {
@@ -169,14 +183,14 @@
         "id": 13,
         "nombre": "3 leches grande",
         "descripcion": "Pastel personal tres leches",
-        "precio": 16.00,
+        "precio": 17.00,
         "imagen": "productos/postres/tres-leches-grande.jpg"
       },
       {
         "categoria": "Postres",  
         "nombre": "Cachito relleno",
         "descripcion": "",
-        "precio": 6.00,
+        "precio": 7.00,
         "imagen": "productos/postres/cachito.jpg"
       },
       {
@@ -204,14 +218,14 @@
         "categoria": "Postres", 
         "nombre": "Croissant",
         "descripcion": "",
-        "precio": 9.00,
+        "precio": 10.00,
         "imagen": "productos/postres/croissant-postre.jpg"
       },
       {
         "categoria": "Postres", 
         "nombre": "Dona rellena",
         "descripcion": "Dona de chocolate rellena de manjar",
-        "precio": 8.00,
+        "precio": 6.00,
         "imagen": "productos/postres/dona.jpg"
       },
       {
@@ -225,42 +239,42 @@
         "categoria": "Postres", 
         "nombre": "Mil hoja",
         "descripcion": "",
-        "precio": 5.00,
+        "precio": 6.00,
         "imagen": "productos/postres/mil-hoja.jpg"
       },
       {
         "categoria": "Postres",   
         "nombre": "Muffin de banano",
         "descripcion": "",
-        "precio": 5.00,
+        "precio": 6.00,
         "imagen": "productos/postres/muffin-ban.jpg"
       },
       {
         "categoria": "Postres",     
         "nombre": "Muffin de chocolate",
         "descripcion": "",
-        "precio": 5.00,
+        "precio": 6.00,
         "imagen": "productos/postres/muffin-choc.jpg"
       },
       {
         "categoria": "Postres",      
         "nombre": "Pie de elote",
         "descripcion": "",
-        "precio": 16.00,
+        "precio": 17.00,
         "imagen": "productos/postres/pie-elote.jpg"
       },
       {
         "categoria": "Postres",        
         "nombre": "Pie de limon",
         "descripcion": "",
-        "precio": 12.00,
+        "precio": 14.00,
         "imagen": "productos/postres/pie-limon.jpg"
       },
       {
         "categoria": "Postres",       
         "nombre": "Pie de queso",
         "descripcion": "",
-        "precio": 12.00,
+        "precio": 13.00,
         "imagen": "productos/postres/pie-queso.jpg"
       },
       {
@@ -274,29 +288,22 @@
         "categoria": "Postres",
         "nombre": "Selva negra grande",
         "descripcion": "",
-        "precio": 16.00,
+        "precio": 17.00,
         "imagen": "productos/postres/sn-grande.jpg"
       },
       {
         "categoria": "Postres",
         "nombre": "Selva negra pequeño",
         "descripcion": "",
-        "precio": 8.00,
+        "precio": 9.00,
         "imagen": "productos/postres/sn-peq.jpg"
       },
       {
         "categoria": "Postres",
         "nombre": "Pastel media noche",
         "descripcion": "",
-        "precio": 16.00,
+        "precio": 18.00,
         "imagen": "productos/postres/media-noche.png"
-      },
-      {
-        "categoria": "Postres",
-        "nombre": "Canoa de banano",
-        "descripcion": "",
-        "precio": 12.00,
-        "imagen": "productos/postres/canoa-banano.png"
       },
       {
         "categoria": "Postres",
@@ -304,6 +311,20 @@
         "descripcion": "",
         "precio": 12.00,
         "imagen": "productos/postres/canoa-fruta.png"
+      },
+      {
+        "categoria": "Postres",
+        "nombre": "Tartaleta de frutas",
+        "descripcion": "",
+        "precio": 16.00,
+        "imagen": "productos/no-image-product.png"
+      },
+      {
+        "categoria": "Postres",
+        "nombre": "Opera de nutella y banano",
+        "descripcion": "",
+        "precio": 16.00,
+        "imagen": "productos/no-image-product.png"
       }
     ]
   }
